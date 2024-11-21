@@ -24,7 +24,10 @@ p {
 
     display:flex;
     flex-wrap:wrap;
-
+    
+    color: #DFD1C2;
+    text-align: center;
+    margin: 20px;
 }
 
 h3 {
@@ -34,20 +37,41 @@ margin-left: 170px;
 }
 
 
+.ProblemStatementIndentation h3{
+
+    margin-left: 20px;
+
+
+}
+
+.AffinityDiagramIndentation h3 {
+
+    margin-left: 20px;
+}
+
+.PrototypeIndentation {
+
+    margin-left: 30px;
+
+}
+
+
+
 .project {
 
 width: 30%;
 margin: 10px;
 padding: 20px 10px;
-background: white;
+background: #827F78;
 border-radius: 25%;
-}
 
-.affdiagram p {
-
-    color: #C1B5A8;
 
 }
+
+
+
+
+
 
 
 .project img{
@@ -76,6 +100,7 @@ a {
 
 
 
+
 .about{
     display:flex;
     flex-wrap:wrap;
@@ -97,3 +122,6 @@ a {
     object-fit:cover;
 
     }
+
+
+
